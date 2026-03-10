@@ -3,6 +3,7 @@
     margin:0;
     padding:0;
 }
+
 body{
     background: #f1f1f1;
 }
@@ -11,7 +12,6 @@ body{
     display:flex;
     justify-content: center;
     flex-wrap: wrap ;
-
 }
  
 .card{
@@ -23,30 +23,21 @@ body{
     position: relative;
 }
 .card-section {
-    margin-bottom: 15px;
+   margin-bottom: 15px;
     background-color: rgb(164, 164, 165);
     height: 140px;
-    border-radius: 15px 15px 0 0;
-    padding-top:10px;
-
-    
+    border-radius: 15px 15px 0 0;  
 }
 .card-image{
-    height: 100px;
-    background-size: cover ;
-    border-radius: 15px;
-    overflow: hidden;          
-    padding: 0; 
-    object-position: center;               
+    height: 150px;               
 }
 .card img {
-    display: block;
+   display: block;
     height: inherit;
-    width: 200px;
+    width: 220px;
     object-fit: cover;
-    padding: 10px;
     border-radius: 15px;
-    object-position: center; 
+    object-position: center;
 }
 .card-description{
     padding: 10px;
